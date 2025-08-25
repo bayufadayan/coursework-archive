@@ -10,8 +10,8 @@ sehingga ditempatkan di repository ini sebagai arsip pembelajaran.
 
 ## Platform
 
-- [Codepolitan](https://bayufadayan.github.io/study-repo/codepolitan)
-- [Dicoding](https://bayufadayan.github.io/study-repo/dicoding)
+- [Codepolitan](https://bayufadayan.github.io/coursework-archive/codepolitan)
+- [Dicoding](https://bayufadayan.github.io/coursework-archive/dicoding)
 
 ---
 

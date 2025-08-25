@@ -8,8 +8,14 @@ Ini adalah hasil dari belajar yang sudah publish. Berikut adalah daftar hasil pe
 ## Result Study
 
 - **Belajar Dasar Pemrograman Web**
-  > 🌐 [Bandung Landing Page](https://bayufadayan.github.io/study-repo/dicoding/belajar-dasar-pemrograman-web) ↗  
+  > 🌐 [Bandung Landing Page](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-dasar-pemrograman-web/#) ↗  
   > 📂 [Repository](https://github.com/bayufadayan/coursework-archive/tree/main/dicoding/belajar-dasar-pemrograman-web) ↗
+
+- **Memulai Pemrograman Dengan Python**
+  > 📂 [Repository](https://github.com/bayufadayan/coursework-archive/tree/main/dicoding/memulai-pemrograman-dengan-python) ↗
+
+- **Belajar Dasar Visualisasi Data**
+  > 📂 [Repository](https://github.com/bayufadayan/coursework-archive/tree/main/dicoding/belajar-dasar-visualisasi-data) ↗
 
 ---
 
@@ -35,3 +41,11 @@ Ini adalah hasil dari belajar yang sudah publish. Berikut adalah daftar hasil pe
   <img src="https://img.shields.io/badge/Year-2025-blue?style=flat-square"/> 
   <img src="https://img.shields.io/badge/Role-Frontend%20Engineer-green?style=flat-square"/><br/><br/>
 </p>
+
+<!-- Sertifikat dan Notes
+<a href="https://www.dicoding.com/certificates/N9ZOM43V0PG5">
+    <img src="https://img.shields.io/badge/🏅%20Sertifikat-blue?style=flat-square"/> 
+</a> -->
+<!-- <a href="">
+<img src="https://img.shields.io/badge/Notes-000000?style=flat-square&logo=notion&logoColor=white"/><br/><br/>
+</a> -->

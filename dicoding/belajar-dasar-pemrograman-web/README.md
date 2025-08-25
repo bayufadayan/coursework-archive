@@ -1,5 +1,12 @@
 [Home](https://bayufadayan.github.io/coursework-archive/) / [Dicoding](https://bayufadayan.github.io/coursework-archive/dicoding) / Bandung Landing Page (Repository)
 
+<a href="https://www.dicoding.com/certificates/N9ZOM43V0PG5">
+    <img src="https://img.shields.io/badge/🏅%20Sertifikat-blue?style=flat-square"/> 
+</a>
+<!-- <a href="">
+<img src="https://img.shields.io/badge/Notes-000000?style=flat-square&logo=notion&logoColor=white"/><br/><br/>
+</a> -->
+
 # Bandung Landing Page
 ## About  
 

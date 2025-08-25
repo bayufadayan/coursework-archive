@@ -1,5 +1,7 @@
+[Home](https://bayufadayan.github.io/coursework-archive/) / [Codepolitan](https://bayufadayan.github.io/coursework-archive/codepolitan)
 
-# Codepolitan Studied
+# Codepolitan
+## About
 
 Ini adalah hasil dari belajar yang sudah publish secara gratis. Berikut adalah daftar hasil pembelajarannya:
 
@@ -16,7 +18,28 @@ Ini adalah hasil dari belajar yang sudah publish secara gratis. Berikut adalah d
  - **PHP MySQL:** [CRUD App](https://phpmysql-crud.vercel.app/)
 
 
-## Authors
+---
 
-- [@bayufadayan](https://www.github.com/bayufadayan)
+<p align="center">
+</p>
+<p align="center">
+    <a href="https://github.com/bayufadayan">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+    </a>
+    <a href="https://www.linkedin.com/in/muhamad-bayu-fadayan/">
+        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    </a>
+    <a href="https://bayufadayan.my.id/">
+        <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+    </a>
+    <a href="https://drive.google.com/file/d/1fPClIxWKbeaKyArwL9cSIDmOFeT-tBt2/view?usp=drive_link">
+        <img src="https://img.shields.io/badge/CURICULUM VITAE-4285F4?style=for-the-badge&logo=googledrive&logoColor=white"/>
+    </a>
+</p>
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/bayufadayan">Bayu Fadayan</a><br/>
+  <img src="https://img.shields.io/badge/Year-2025-blue?style=flat-square"/> 
+  <img src="https://img.shields.io/badge/Role-Frontend%20Engineer-green?style=flat-square"/><br/><br/>
+</p>
 

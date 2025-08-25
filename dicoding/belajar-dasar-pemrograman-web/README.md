@@ -1,17 +1,13 @@
-[Home](https://bayufadayan.github.io/coursework-archive/)
+[Home](https://bayufadayan.github.io/coursework-archive/) / [Dicoding](https://bayufadayan.github.io/coursework-archive/dicoding) / Bandung Landing Page (Repository)
 
-# Coursework Archive
+# Bandung Landing Page
+## About  
 
-## About
+Berikut hasil pembelajaran membuat landing page dengan menggunakan html dan css dasar. Yakni landing page tentang Kota Bandung
 
-Repository ini berisi kumpulan kode hasil pembelajaran dari berbagai platform.  
-Di dalamnya terdapat file latihan, studi kasus, serta mini-project yang belum bisa dimasukkan ke dalam portofolio utama,  
-sehingga ditempatkan di repository ini sebagai arsip pembelajaran.
+## Screenshot
+![Bandung Landing Page](assets/image/screenshot.png)
 
-## Platform
-
-- [Codepolitan](https://bayufadayan.github.io/study-repo/codepolitan)
-- [Dicoding](https://bayufadayan.github.io/study-repo/dicoding)
 
 ---
 

@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/Notes-000000?style=flat-square&logo=notion&logoColor=white"/><br/><br/>
 </a>
 
-# Visualisasi Data dengab Google Sheet
+# Visualisasi Data dengan Google Sheet
 
 ## About
 

@@ -42,8 +42,8 @@ Berikut merupakan hasil pembelajaran dari course yang telah diikuti di Dicoding.
 <p align="center">
   Made with ❤️ by <a href="https://github.com/bayufadayan">Bayu Fadayan</a><br/>
   <img src="https://img.shields.io/badge/Year-2025-blue?style=flat-square"/> 
-  <img src="https://img.shields.io/badge/Role-Frontend%20Engineer-green?style=flat-square"/><br/><br/>
-  <a href="https://github.com/bayufadayan/coursework-archive/tree/main/dicoding">
+  <img src="https://img.shields.io/badge/Role-Frontend%20Engineer-purple?style=flat-square"/><br/><br/>
+  <a href="https://github.com/bayufadayan/coursework-archive">
     <img src="https://img.shields.io/badge/Go%20to%20this%20repository-000000?style=flat-square&logo=github&logoColor=white"/>
   </a>
 </p>

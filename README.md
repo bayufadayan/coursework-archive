@@ -5,8 +5,7 @@
 ## About
 
 Repository ini berisi kumpulan kode hasil pembelajaran dari berbagai platform.  
-Di dalamnya terdapat file latihan, studi kasus, serta mini-project yang belum bisa dimasukkan ke dalam portofolio utama,  
-sehingga ditempatkan di repository ini sebagai arsip pembelajaran.
+Di dalamnya terdapat file latihan, studi kasus, serta mini-project yang belum bisa dimasukkan ke dalam portofolio utama, sehingga ditempatkan di repository ini sebagai arsip pembelajaran.
 
 ## Platform
 
@@ -36,4 +35,7 @@ sehingga ditempatkan di repository ini sebagai arsip pembelajaran.
   Made with ❤️ by <a href="https://github.com/bayufadayan">Bayu Fadayan</a><br/>
   <img src="https://img.shields.io/badge/Year-2025-blue?style=flat-square"/> 
   <img src="https://img.shields.io/badge/Role-Frontend%20Engineer-green?style=flat-square"/><br/><br/>
+  <a href="https://github.com/bayufadayan/coursework-archive">
+    <img src="https://img.shields.io/badge/Go%20to%20this%20repository-000000?style=flat-square&logo=github&logoColor=white"/>
+  </a>
 </p>

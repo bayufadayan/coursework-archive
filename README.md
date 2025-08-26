@@ -12,6 +12,19 @@ Di dalamnya terdapat file latihan, studi kasus, serta mini-project yang belum bi
 - [Codepolitan](https://bayufadayan.github.io/coursework-archive/codepolitan)
 - [Dicoding](https://bayufadayan.github.io/coursework-archive/dicoding)
 
+## Notes  
+### What To Do Next?  
+1. Add Certificate List  
+   - Tambahkan daftar sertifikat di README untuk setiap platform course.  
+   - Tambahkan daftar **Certificates Dicoding**.  
+2. Add Notes in Main README  
+   - Catat hal-hal yang belum diimplementasikan (misalnya source code Codepolitan, dsb).  
+   - Saat ini, kursus Codepolitan sebagian besar hanya berupa studi kasus dan belum menyertakan source code pembelajarannya.
+3. Update README for Each Project  
+   - Tambahkan README untuk setiap projek Codepolitan.
+   - Tambahkan README untuk projek BWA.  
+
+
 ---
 
 <p align="center">

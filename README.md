@@ -14,17 +14,20 @@ Di dalamnya terdapat file latihan, studi kasus, serta mini-project yang belum bi
 
 ## Notes  
 ### What To Do Next?  
-1. Add Certificate List  
-   - Tambahkan daftar sertifikat di README untuk setiap platform course.  
-   - Tambahkan daftar **Certificates Dicoding**.  
-2. Add Notes in Main README  
-   - Catat hal-hal yang belum diimplementasikan (misalnya source code Codepolitan, dsb).  
-   - Saat ini, kursus Codepolitan sebagian besar hanya berupa studi kasus dan belum menyertakan source code pembelajarannya.
-3. Update README for Each Project  
-   - Tambahkan README untuk setiap projek Codepolitan.
-   - Tambahkan README untuk projek BWA.  
-
-
+- Periksa setiap project: pastikan link repository sudah terbaru  
+  - Project yang masih pakai link lama: **Simple Blog, Accordion FAQ, Splitbill, Crud APP (PHP)**  
+- Buat daftar **Web / App yang sudah publish** di *private notes*  
+- Urutkan daftar **Certificate Codepolitan** di README berdasarkan tingkat kesulitan (*newbie → expert*)  
+- Perbarui link **"Go to this repository"** pada footer setiap README  
+- Tambahkan section **Certificate dan Notes** di setiap project  
+- Lengkapi **README** di setiap project agar konsisten  
+- Tambahkan daftar **Sertifikat Dicoding** di `/coursework-archive/dicoding/README.md`  
+- Tambahkan **source code pembelajaran** untuk course di Codepolitan (saat ini mayoritas hanya studi kasus)  
+- Tambahkan course yang belum tercatat, seperti:  
+  - Platform **BWA**  
+  - Course **multi-platform Dicoding**  
+  - Course lainnya yang belum masuk daftar  
+  
 ---
 
 <p align="center">

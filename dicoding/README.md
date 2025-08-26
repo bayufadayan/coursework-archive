@@ -3,7 +3,7 @@
 # Dicoding
 ## About  
 
-Ini adalah hasil dari belajar yang sudah publish. Berikut adalah daftar hasil pembelajarannya:
+Berikut merupakan hasil pembelajaran dari course yang telah diikuti di Dicoding.
 
 ## Result Study
 
@@ -16,6 +16,9 @@ Ini adalah hasil dari belajar yang sudah publish. Berikut adalah daftar hasil pe
 
 - **Belajar Dasar Visualisasi Data**
   > 📂 [Repository](https://github.com/bayufadayan/coursework-archive/tree/main/dicoding/belajar-dasar-visualisasi-data) ↗
+
+## Certificate
+1. **Memulai Dasar Pemrograman untuk Menjadi Pengembang Software** : [Credential ID: N9ZO9N45DXG5 ↗](https://dicoding.com/certificates/N9ZO9N45DXG5)
 
 ---
 
@@ -40,12 +43,8 @@ Ini adalah hasil dari belajar yang sudah publish. Berikut adalah daftar hasil pe
   Made with ❤️ by <a href="https://github.com/bayufadayan">Bayu Fadayan</a><br/>
   <img src="https://img.shields.io/badge/Year-2025-blue?style=flat-square"/> 
   <img src="https://img.shields.io/badge/Role-Frontend%20Engineer-green?style=flat-square"/><br/><br/>
+  <a href="https://github.com/bayufadayan/coursework-archive/tree/main/dicoding">
+    <img src="https://img.shields.io/badge/Go%20to%20this%20repository-000000?style=flat-square&logo=github&logoColor=white"/>
+  </a>
 </p>
 
-<!-- Sertifikat dan Notes
-<a href="https://www.dicoding.com/certificates/N9ZOM43V0PG5">
-    <img src="https://img.shields.io/badge/🏅%20Sertifikat-blue?style=flat-square"/> 
-</a> -->
-<!-- <a href="">
-<img src="https://img.shields.io/badge/Notes-000000?style=flat-square&logo=notion&logoColor=white"/><br/><br/>
-</a> -->

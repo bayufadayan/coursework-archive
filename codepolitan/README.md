@@ -3,19 +3,62 @@
 # Codepolitan
 ## About
 
-Ini adalah hasil dari belajar yang sudah publish secara gratis. Berikut adalah daftar hasil pembelajarannya:
+Berikut merupakan hasil pembelajaran dari course yang telah diikuti di Codepolitan.
 
 ## Result Study
 
- - **CSS dasar:** [Pricing Table Web](https://bayufadayan.github.io/study-repo/codepolitan/Project%20and%20Case%20Study/Studi%20Kasus%20CSS%20-%20Membuat%20Tabel%20Pricing%20dengan%20Flexbox/#)
- - **Bootstrap:** [Museum Art](https://bayufadayan.github.io/study-repo/codepolitan/Project%20and%20Case%20Study/Studi%20Kasus%20Bootstrap%20-%20Landing%20Page%20Responsive%20Museum%20Art/)
- - **Basic JS:** [Guess the Number Games](https://bayufadayan.github.io/study-repo/codepolitan/Project%20and%20Case%20Study/Studi%20Kasus%20JS%20-%20Game%20Tebakan%20dengan%20While/)
- - **DOM JS:** [Scoreboard](https://bayufadayan.github.io/study-repo/codepolitan/Project%20and%20Case%20Study/Studi%20Kasus%20DOM%20-%20Papan%20Script/)
- - **React JS:** [Simple Blog Web](https://react-simple-blog-six.vercel.app/)
- - **React JS State:** [FAQ Simple Component](https://react-faq-components.vercel.app/)
- - **React JS Case:** [Split Bill App](https://react-split-bill-app.vercel.app/)
- - **PHP Dasar:** [Todo App](https://php-todo-app-phi.vercel.app/)
- - **PHP MySQL:** [CRUD App](https://phpmysql-crud.vercel.app/)
+- **Belajar CSS**
+  > 🌐 [Pricing Table Web](https://bayufadayan.github.io/coursework-archive/codepolitan/belajar-css/) ↗  
+  > 📂 [Repository](https://github.com/bayufadayan/coursework-archive/tree/main/codepolitan/belajar-css) ↗
+
+- **Belajar CSS Framework Bootstrap 5**
+  > 🌐 [Museum Art](https://bayufadayan.github.io/coursework-archive/codepolitan/belajar-css-framework-bootstrap-5/) ↗  
+  > 📂 [Repository](https://github.com/bayufadayan/coursework-archive/tree/main/codepolitan/belajar-css-framework-bootstrap-5) ↗
+
+- **Belajar Javascript**
+  > 🌐 [Guess the Number Games](https://bayufadayan.github.io/coursework-archive/codepolitan/belajar-javascript) ↗  
+  > 📂 [Repository](https://github.com/bayufadayan/coursework-archive/tree/main/codepolitan/belajar-javascript) ↗
+
+- **Belajar Javascript DOM**
+  > 🌐 [Scoreboard](https://bayufadayan.github.io/coursework-archive/codepolitan/belajar-javascript-dom) ↗  
+  > 📂 [Repository](https://github.com/bayufadayan/coursework-archive/tree/main/codepolitan/belajar-javascript-dom) ↗
+
+- **Belajar React JS Fundamental**
+  > 🌐 [Simple Blog Web](https://react-simple-blog-six.vercel.app/) ↗  
+  > 📂 [Repository](https://github.com/bayufadayan/coursework-archive/tree/main/codepolitan/belajar-react-js-fundamental) ↗
+
+- **React JS State Management**
+  > 🌐 [Accordion FAQ Components](https://react-faq-components.vercel.app/) ↗  
+  > 📂 [Repository](https://github.com/bayufadayan/coursework-archive/tree/main/codepolitan/react-js-state-management) ↗
+
+- **Belajar React JS : Studi Kasus Split Bill App**
+  > 🌐 [Split Bill App](https://react-split-bill-app.vercel.app/) ↗  
+  > 📂 [Repository](https://github.com/bayufadayan/coursework-archive/tree/main/codepolitan/belajar-react-js-dengan-membuat-aplikasi-split-bill) ↗
+
+- **Belajar Pemrograman PHP**
+  > 🌐 [Todo App](https://php-todo-app-phi.vercel.app/) ↗  
+  > 📂 [Repository](https://github.com/bayufadayan/coursework-archive/tree/main/codepolitan/belajar-pemrograman-php) ↗
+
+- **PHP 7 dan MySQL Panduan CRUD Lengkap Untuk Pemula**
+  > 🌐 [CRUD APP](https://php-crud.bayufadayan.my.id/) ↗  
+  > 📂 [Repository](https://github.com/bayufadayan/coursework-archive/tree/main/codepolitan/php7-dan-mysql-panduan-crud-lengkap-untuk-pemula) ↗
+
+
+## Certificate
+1. **Belajar Dasar HTML** : [Credential ID: ENVF37D ↗](https://codepolitan.com/c/ENVF37D)
+2. **Belajar Dasar CSS** : [Credential ID: IGSPNV6 ↗](https://codepolitan.com/c/IGSPNV6)
+3. **Belajar CSS Framework Bootstrap 5** : [Credential ID: FB2DMXV ↗](https://codepolitan.com/c/FB2DMXV)
+4. **Belajar Javascript** : [Credential ID: IKQ0UAT ↗](https://codepolitan.com/c/IKQ0UAT)
+5. **Belajar Javascript DOM** : [Credential ID: ETEBDWN ↗](https://codepolitan.com/c/ETEBDWN)
+6. **Membangun Frontend dengan JQuery** : [Credential ID: NMGDCWB ↗](https://codepolitan.com/c/NMGDCWB)
+7. **Membuat Landing Page Website dengan Bootstrap 4** : [Credential ID: FNGP9UV ↗](https://codepolitan.com/c/FNGP9UV)
+8. **Belajar Pemrograman PHP** : [Credential ID: GR2FUWT ↗](https://codepolitan.com/c/GR2FUWT)
+9. **Pengenalan Database Menggunakan MySQL** : [Credential ID: OPGJL61 ↗](https://codepolitan.com/c/OPGJL61)
+10. **PHP 7 dan MySQL Panduan CRUD Lengkap Untuk Pemula** : [Credential ID: XRF6YPW ↗](https://codepolitan.com/c/XRF6YPW)
+11. **Konsep Dasar Pemrograman Berorientasi Objek di PHP** : [Credential ID: INMVM9Z ↗](https://codepolitan.com/c/INMVM9Z)
+12. **Belajar React JS Fundamental** : [Credential ID: NTRXLNI ↗](https://codepolitan.com/c/NTRXLNI)
+13. **React JS State Management** : [Credential ID: MWNJTCB ↗](https://codepolitan.com/c/MWNJTCB)
+14. **Belajar React JS: Studi Kasus Split Bill App** : [Credential ID: 41UFO9T ↗](https://codepolitan.com/c/41UFO9T)
 
 
 ---

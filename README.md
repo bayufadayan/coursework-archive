@@ -13,7 +13,8 @@ Di dalamnya terdapat file latihan, studi kasus, serta mini-project yang belum bi
 - [Dicoding](https://bayufadayan.github.io/coursework-archive/dicoding)
 
 ## Notes  
-### What To Do Next?  
+### What To Do Next?
+- (readmd buat dart dan flutter)  
 - Periksa setiap project: pastikan link repository sudah terbaru  
   - Project yang masih pakai link lama: **Simple Blog, Accordion FAQ, Splitbill, Crud APP (PHP)**  
 - Buat daftar **Web / App yang sudah publish** di *private notes*  

@@ -15,8 +15,8 @@ Berikut merupakan hasil pembelajaran dari course yang telah diikuti di Dicoding.
   > 📂 [Repository](https://github.com/bayufadayan/convids-web) ↗
 
 - **Belajar Membuat Front End Untuk Pemula**
-  > 🌐 [Latihan 1](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-1) | 🌐 [Latihan 2](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-2) | 🌐 [Latihan 3](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-3) | 🌐 [Latihan 4 (Todo App)](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-4-todoapp) | 🌐 [Latihan 5 (Local Storage)](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-5-local-storage) | 🌐 [Latihan 6 (Session Storage)](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-6-session-storage) | 🌐 [Latihan 7 (Game Tebak Angka)](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-7-game-tebak-angka) | 🌐 [Latihan 8 (Form)](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-8-form) |    
-  > 📂 [Repository](https://github.com/bayufadayan/bookshelf-app/) ↗
+  > 🌐 [Latihan 1](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-1) | 🌐 [Latihan 2](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-2/event.html) | 🌐 [Latihan 3](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-3/custom-event.html) | 🌐 [Latihan 4 (Todo App)](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-4-todoapp) | 🌐 [Latihan 5 (Local Storage)](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-5-local-storage) | 🌐 [Latihan 6 (Session Storage)](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-6-session-storage) | 🌐 [Latihan 7 (Game Tebak Angka)](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-7-game-tebak-angka) | 🌐 [Latihan 8 (Form)](https://bayufadayan.github.io/coursework-archive/dicoding/belajar-membuat-front-end-untuk-pemula/latihan-8-form) |    
+  > 📂 [Repository](https://github.com/bayufadayan/coursework-archive/tree/main/dicoding/belajar-membuat-front-end-untuk-pemula) ↗
 
   > 🌐 [Bookshelf App (Projek Akhir)](https://bayufadayan.github.io/bookshelf-app/) ↗  
   > 📂 [Repository](https://github.com/bayufadayan/bookshelf-app/) ↗
@@ -61,7 +61,7 @@ Berikut merupakan hasil pembelajaran dari course yang telah diikuti di Dicoding.
   Made with ❤️ by <a href="https://github.com/bayufadayan">Bayu Fadayan</a><br/>
   <img src="https://img.shields.io/badge/Year-2025-blue?style=flat-square"/> 
   <img src="https://img.shields.io/badge/Role-Frontend%20Engineer-purple?style=flat-square"/><br/><br/>
-  <a href="https://github.com/bayufadayan/coursework-archive/dicoding">
+  <a href="https://github.com/bayufadayan/coursework-archive/tree/main/dicoding">
     <img src="https://img.shields.io/badge/Go%20to%20this%20repository-000000?style=flat-square&logo=github&logoColor=white"/>
   </a>
 </p>

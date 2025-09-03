@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Not Found</title>
+<style>
+    /* Reset dasar */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+        color: #333;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 500px;
+        background: #fff;
+        padding: 40px 20px;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        animation: fadeIn 1s ease-out;
+    }
+
+    h1 {
+        font-size: 3rem;
+        color: #e74c3c;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: #555;
+        margin-bottom: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        background: #3498db;
+        padding: 12px 25px;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        background: #2980b9;
+    }
+
+    @keyframes fadeIn {
+        from {opacity: 0; transform: translateY(-20px);}
+        to {opacity: 1; transform: translateY(0);}
+    }
+
+    @media (max-width: 600px) {
+        h1 { font-size: 2.2rem; }
+        p { font-size: 1rem; }
+        .container { padding: 30px 15px; }
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Not Found</h1>
+        <p>Maaf, halaman asli nya belum di update, Balik lagi nanti ya.</p>
+        <a href="https://bayufadayan.github.io/coursework-archive/notfound.html">Kembali ke Beranda</a>
+    </div>
+</body>
+</html>

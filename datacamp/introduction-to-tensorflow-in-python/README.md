@@ -1,0 +1,1 @@
+Done IPYNB: Chapter 1 dan Chapter 2

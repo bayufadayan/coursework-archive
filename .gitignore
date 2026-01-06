@@ -1,1 +1,21 @@
 __pycache__/
+
+# Laravel
+harisenin/**/vendor/
+harisenin/**/node_modules/
+harisenin/**/.env
+harisenin/**/.env.backup
+harisenin/**/.env.production
+harisenin/**/Homestead.json
+harisenin/**/Homestead.yaml
+harisenin/**/auth.json
+harisenin/**/npm-debug.log
+harisenin/**/yarn-error.log
+harisenin/**/.phpunit.cache
+harisenin/**/public/hot
+harisenin/**/public/storage
+harisenin/**/public/build
+harisenin/**/storage/*.key
+harisenin/**/.fleet
+harisenin/**/.idea
+harisenin/**/.vscode

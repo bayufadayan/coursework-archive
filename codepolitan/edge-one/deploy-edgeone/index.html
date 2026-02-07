@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VillaKu - Sewa Villa & Rumah Impian Anda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-home"></i>
+                <span>VillaKu</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Beranda</a>
+                <a href="#properties" class="nav-link">Properti</a>
+                <a href="#features" class="nav-link">Fitur</a>
+                <a href="#testimonials" class="nav-link">Testimoni</a>
+                <a href="#contact" class="nav-link">Kontak</a>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="word">Temukan</span>
+                    <span class="word">Villa</span>
+                    <span class="word">Impian</span>
+                    <span class="word">Anda</span>
+                </h1>
+                <p class="hero-subtitle">Pengalaman liburan tak terlupakan dimulai dari tempat menginap yang sempurna</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">
+                        <span>Jelajahi Sekarang</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn btn-secondary">
+                        <span>Lihat Video</span>
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">Villa Premium</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="10000">0</div>
+                    <div class="stat-label">Pelanggan Puas</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Kota Tersedia</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Scroll untuk lebih banyak</p>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <div class="search-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="search-input-wrapper">
+                        <label>Lokasi</label>
+                        <input type="text" placeholder="Mau ke mana?">
+                    </div>
+                </div>
+                <div class="search-item">
+                    <i class="fas fa-calendar"></i>
+                    <div class="search-input-wrapper">
+                        <label>Check-in</label>
+                        <input type="date">
+                    </div>
+                </div>
+                <div class="search-item">
+                    <i class="fas fa-calendar"></i>
+                    <div class="search-input-wrapper">
+                        <label>Check-out</label>
+                        <input type="date">
+                    </div>
+                </div>
+                <div class="search-item">
+                    <i class="fas fa-users"></i>
+                    <div class="search-input-wrapper">
+                        <label>Tamu</label>
+                        <input type="number" placeholder="Berapa orang?">
+                    </div>
+                </div>
+                <button class="btn btn-search">
+                    <i class="fas fa-search"></i>
+                    Cari
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Kenapa Kami?</span>
+                <h2 class="section-title">Keunggulan VillaKu</h2>
+                <p class="section-subtitle">Kami berkomitmen memberikan pengalaman terbaik untuk liburan Anda</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Aman & Terpercaya</h3>
+                    <p>Semua properti telah diverifikasi dan dijamin keamanannya</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <h3>Harga Terbaik</h3>
+                    <p>Jaminan harga termurah dengan kualitas terbaik</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Support 24/7</h3>
+                    <p>Tim kami siap membantu Anda kapan saja</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Lokasi Strategis</h3>
+                    <p>Villa di lokasi terbaik dan mudah diakses</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Rating Tinggi</h3>
+                    <p>Rata-rata rating 4.8/5 dari ribuan review</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Refund Mudah</h3>
+                    <p>Proses pembatalan dan refund yang mudah dan cepat</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section class="properties" id="properties">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Pilihan Terbaik</span>
+                <h2 class="section-title">Villa Premium Kami</h2>
+                <p class="section-subtitle">Koleksi villa dan rumah dengan fasilitas mewah untuk liburan sempurna Anda</p>
+            </div>
+            
+            <div class="property-filters">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="bali">Bali</button>
+                <button class="filter-btn" data-filter="bandung">Bandung</button>
+                <button class="filter-btn" data-filter="jakarta">Jakarta</button>
+                <button class="filter-btn" data-filter="yogyakarta">Yogyakarta</button>
+            </div>
+
+            <div class="properties-grid">
+                <div class="property-card" data-category="bali">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800" alt="Villa Bali">
+                        <div class="property-badge">Best Seller</div>
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-header">
+                            <h3>Villa Sunset Paradise</h3>
+                            <div class="property-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+                        </div>
+                        <p class="property-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Seminyak, Bali
+                        </p>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 4 Kamar</span>
+                            <span><i class="fas fa-bath"></i> 3 Kamar Mandi</span>
+                            <span><i class="fas fa-swimming-pool"></i> Kolam Renang</span>
+                        </div>
+                        <div class="property-footer">
+                            <div class="property-price">
+                                <span class="price">Rp 2.500.000</span>
+                                <span class="period">/malam</span>
+                            </div>
+                            <button class="btn btn-book">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property-card" data-category="bandung">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800" alt="Villa Bandung">
+                        <div class="property-badge hot">Hot</div>
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-header">
+                            <h3>Mountain View Retreat</h3>
+                            <div class="property-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.8</span>
+                            </div>
+                        </div>
+                        <p class="property-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Lembang, Bandung
+                        </p>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 5 Kamar</span>
+                            <span><i class="fas fa-bath"></i> 4 Kamar Mandi</span>
+                            <span><i class="fas fa-fire"></i> Fireplace</span>
+                        </div>
+                        <div class="property-footer">
+                            <div class="property-price">
+                                <span class="price">Rp 1.800.000</span>
+                                <span class="period">/malam</span>
+                            </div>
+                            <button class="btn btn-book">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property-card" data-category="jakarta">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800" alt="Rumah Jakarta">
+                        <div class="property-badge new">New</div>
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-header">
+                            <h3>Urban Luxury House</h3>
+                            <div class="property-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.7</span>
+                            </div>
+                        </div>
+                        <p class="property-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Kemang, Jakarta Selatan
+                        </p>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 3 Kamar</span>
+                            <span><i class="fas fa-bath"></i> 2 Kamar Mandi</span>
+                            <span><i class="fas fa-car"></i> Garasi</span>
+                        </div>
+                        <div class="property-footer">
+                            <div class="property-price">
+                                <span class="price">Rp 1.200.000</span>
+                                <span class="period">/malam</span>
+                            </div>
+                            <button class="btn btn-book">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property-card" data-category="yogyakarta">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800" alt="Villa Yogyakarta">
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-header">
+                            <h3>Traditional Joglo Villa</h3>
+                            <div class="property-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+                        </div>
+                        <p class="property-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Sleman, Yogyakarta
+                        </p>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 6 Kamar</span>
+                            <span><i class="fas fa-bath"></i> 5 Kamar Mandi</span>
+                            <span><i class="fas fa-tree"></i> Taman</span>
+                        </div>
+                        <div class="property-footer">
+                            <div class="property-price">
+                                <span class="price">Rp 2.000.000</span>
+                                <span class="period">/malam</span>
+                            </div>
+                            <button class="btn btn-book">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property-card" data-category="bali">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=800" alt="Villa Bali">
+                        <div class="property-badge">Promo</div>
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-header">
+                            <h3>Oceanfront Villa</h3>
+                            <div class="property-rating">
+                                <i class="fas fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                        </div>
+                        <p class="property-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Canggu, Bali
+                        </p>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 5 Kamar</span>
+                            <span><i class="fas fa-bath"></i> 4 Kamar Mandi</span>
+                            <span><i class="fas fa-water"></i> Beach Access</span>
+                        </div>
+                        <div class="property-footer">
+                            <div class="property-price">
+                                <span class="price">Rp 3.500.000</span>
+                                <span class="period">/malam</span>
+                            </div>
+                            <button class="btn btn-book">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property-card" data-category="bandung">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800" alt="Villa Bandung">
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-header">
+                            <h3>Highland Paradise</h3>
+                            <div class="property-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.6</span>
+                            </div>
+                        </div>
+                        <p class="property-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Dago, Bandung
+                        </p>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 4 Kamar</span>
+                            <span><i class="fas fa-bath"></i> 3 Kamar Mandi</span>
+                            <span><i class="fas fa-hot-tub"></i> Jacuzzi</span>
+                        </div>
+                        <div class="property-footer">
+                            <div class="property-price">
+                                <span class="price">Rp 1.500.000</span>
+                                <span class="period">/malam</span>
+                            </div>
+                            <button class="btn btn-book">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="load-more">
+                <button class="btn btn-outline">Lihat Lebih Banyak</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Kata Mereka</span>
+                <h2 class="section-title">Testimoni Pelanggan</h2>
+                <p class="section-subtitle">Ribuan pelanggan puas telah merasakan pengalaman terbaik bersama kami</p>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://i.pravatar.cc/150?img=1" alt="Customer">
+                        <div class="testimonial-info">
+                            <h4>Andi Pratama</h4>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "Pengalaman menginap yang luar biasa! Villa sangat bersih, pemandangan indah, dan pelayanan sangat memuaskan. Pasti akan kembali lagi!"
+                    </p>
+                    <div class="testimonial-date">2 minggu yang lalu</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://i.pravatar.cc/150?img=5" alt="Customer">
+                        <div class="testimonial-info">
+                            <h4>Siti Nurhaliza</h4>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "Harga terjangkau dengan fasilitas mewah. Booking mudah, konfirmasi cepat. Recommended banget untuk liburan keluarga!"
+                    </p>
+                    <div class="testimonial-date">1 bulan yang lalu</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://i.pravatar.cc/150?img=12" alt="Customer">
+                        <div class="testimonial-info">
+                            <h4>Budi Santoso</h4>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "Lokasi strategis, dekat dengan tempat wisata. Customer service sangat responsif. Sukses terus VillaKu!"
+                    </p>
+                    <div class="testimonial-date">3 minggu yang lalu</div>
+                </div>
+            </div>
+
+            <div class="slider-controls">
+                <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots"></div>
+                <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Siap Memulai Liburan Impian Anda?</h2>
+                <p>Dapatkan penawaran spesial dan diskon hingga 30% untuk booking pertama Anda</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary btn-large">
+                        <span>Daftar Sekarang</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn btn-outline-white btn-large">
+                        <span>Hubungi Kami</span>
+                        <i class="fas fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Hubungi Kami</h2>
+                    <p>Punya pertanyaan? Tim kami siap membantu Anda</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Telepon</h4>
+                                <p>+62 812-3456-7890</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@villaku.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Alamat</h4>
+                                <p>Jl. Sunset Road No. 123<br>Kuta, Bali 80361</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Nomor Telepon" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            Kirim Pesan
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <i class="fas fa-home"></i>
+                        <span>VillaKu</span>
+                    </div>
+                    <p>Platform terpercaya untuk sewa villa dan rumah impian Anda di seluruh Indonesia</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Perusahaan</h4>
+                    <ul>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Bantuan</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Cara Booking</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Dapatkan penawaran terbaru langsung di email Anda</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Email Anda">
+                        <button><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 VillaKu. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="#" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

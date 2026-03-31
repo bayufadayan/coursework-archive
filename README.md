@@ -2,7 +2,7 @@
 
 # Coursework Archive
 
-## About
+## About 
 
 Repository ini berisi kumpulan kode hasil pembelajaran dari berbagai platform.  
 Di dalamnya terdapat file latihan, studi kasus, serta mini-project yang belum bisa dimasukkan ke dalam portofolio utama, sehingga ditempatkan di repository ini sebagai arsip pembelajaran.

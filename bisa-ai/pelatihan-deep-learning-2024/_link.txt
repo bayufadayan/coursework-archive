@@ -1,0 +1,43 @@
+Pengumpulan Latihan:
+https://forms.gle/3oX5P7gu4cPe5hSf8
+
+Link Materi:
+https://drive.google.com/drive/folders/15Y1wrzCSKhOErS1MkuGEhPS6_FVuAR2u
+
+Link Rekaman
+https://drive.google.com/drive/folders/1hbWizq3nyzy0laSvYJi_Ev8HxyDXSf6V
+
+======================
+
+Sesi 1
+https://idx.google.com/?pli=1
+https://textblob.readthedocs.io/en/dev/quickstart.html
+https://app.cvat.ai/auth/login
+https://pypi.org/project/pytesseract/
+
+======================
+
+Sesi 3
+Link Materi pagi ini:
+https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
+https://machinelearningmastery.com/save-load-machine-learning-models-python-scikit-learn/
+
+Link Server 1:
+110.239.93.223
+username: root
+password: B154411d
+
+Link Server 2:
+110.239.71.252
+username: root
+password: B154411d
+
+Server 3:
+110.239.71.90
+username: root
+password: B154411d
+
+======================
+Sesi 4
+https://9238-125-166-115-43.ngrok-free.app/
+https://hm2636.csb.app/

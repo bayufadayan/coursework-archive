@@ -1,0 +1,3 @@
+frontend: https://github.com/bayufadayan/portofolio
+admin: https://github.com/bayufadayan/portofolio-admin-panel
+backend: https://github.com/bayufadayan/portofolio-rest-api

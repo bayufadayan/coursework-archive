@@ -1,0 +1,123 @@
+```{r}
+# Ini adalah contoh vector untuk angka numerik dengan 3 data c(4, 5, 6)
+c(4, 5, 6)
+
+#simpan vektor ke variabel angka
+angka <- c(4, 5, 6)
+
+print(angka)
+```
+
+```{r}
+# Operator titik dua (:)
+angka1 <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+print(angka1)
+
+#untuk mempersingkat penulisan
+angka2 <- c(1:10)
+print(angka2)
+
+```
+
+```{r}
+#Vektor isi text
+nama_mahasiswa <- c("Amira", "Budi", "Charlie")
+print(nama_mahasiswa)
+```
+
+```{r}
+#Cara mengambil nilai elemen dari vektor
+angka <- c(20:30)
+print(angka)
+
+# Tampilkan isi variable angka pada posisi ke 3
+print(angka[3])
+
+# Tampilkan isi variable angka pada posisi ke 5 gunakan kurung siku ganda
+print(angka[[5]])
+
+# Tampilkan isi variable angka pada posisi ke 4 s/d 6
+print(angka[4:6])
+
+# Buat vector teks dengan nama kode_prodi yang diisi sesuai petunjuk soal
+kode_prodi <- c("DKV", "ILKOM", "ICT")
+
+# Tampilkan isi indeks ketiga dari kode_prodi
+print(kode_prodi[3])
+```
+
+```{r}
+#Named Vector
+nilai <- c(statistik = 89, fisika = 95, ilmukomunikasi = 100)
+
+#Menampilkan isi variable nilai
+print(nilai)
+
+#Menampilkan isi dengan nama fisika
+print(nilai['fisika'])
+
+#Buat variable profil sesuai permintaan soal
+profile <- c(nama = 'budi', tempat_tinggal = 'Jakarta', tingkat_pendidikan = 'S1')
+
+#Tampilkan variable profil
+print(profile)
+```
+
+```{r}
+#List / Array
+list_random <- list(2, "Budi", 4)
+
+list_random
+
+# List disimpan dalam variable dengan nama dati2
+dati2 <- list(nama = "Denpasar", propinsi = "Bali")
+
+# Menampilkan isi list dati2
+dati2 
+
+# Buat variable kota sesuai permintaan soal
+kota <- list(nama_kota = 'Makassar', propinsi = 'Sulawesi Selatan', luas_km2 = 199.3)
+
+# Tampilkan isi variable list kota
+kota
+```
+
+```{r}
+#Cara akses posisi di list
+list_saya <- list(2, "Budi", 4)
+
+list_saya[2]
+
+list_saya[[2]]
+
+list_saya[2:3]
+
+list_satu <- list(1, "Online", TRUE)
+list_satu[1]
+```
+
+```{r}
+#Dataframe
+fakultas <- c("Bisnis", "D3 Perhotelan", "ICT", "Ilmu Komunikasi", "Seni dan Desain")
+
+jumlah_mahasiswa <- c(260, 28, 284, 465, 735)
+
+info_mahasiswa <- data.frame(fakultas, jumlah_mahasiswa)
+
+info_mahasiswa
+```
+
+```{r}
+#Melanjutkan yang atas
+akreditasi <- c("A", "A", "B", "A", "A")
+
+info_mahasiswa <- data.frame(fakultas, jumlah_mahasiswa, akreditasi)
+
+info_mahasiswa
+```
+
+```{r}
+#Cara akses data frame
+#pakai dolar ya
+info_mahasiswa$fakultas
+```

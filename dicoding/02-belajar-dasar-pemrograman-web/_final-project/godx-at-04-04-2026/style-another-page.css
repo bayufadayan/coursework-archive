@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --bg-paper: #f7efe2;
+    --bg-ink: #122b3f;
+    --bg-panel: #fffaf2;
+    --accent-gold: #f2a316;
+    --accent-gold-2: #ffb548;
+    --accent-blue: #234c6a;
+    --text-main: #2a2a2a;
+    --text-soft: #595959;
+    --line-soft: rgba(18, 43, 63, 0.16);
+    --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.14);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    color: var(--text-main);
+    background:
+        radial-gradient(circle at 12% 14%, rgba(255, 181, 72, 0.2), transparent 28%),
+        radial-gradient(circle at 86% 2%, rgba(35, 76, 106, 0.22), transparent 30%),
+        linear-gradient(145deg, #f7e9d1 0%, #f2e7d8 45%, #e4d6c0 100%);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1rem 2.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(35, 76, 106, 0.82) 100%);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 1;
+}
+
+.logo span {
+    font-family: 'Henny Penny', cursive;
+    font-size: 2.3rem;
+}
+
+.logo-spin {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: 0 0.22rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #1b1b1b 10%, #fff36f 100%);
+}
+
+.logo-spark {
+    display: block;
+    width: 140%;
+    height: 140%;
+    object-fit: contain;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.6rem;
+}
+
+.nav-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #f7f7f7;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    padding: 0.5rem 0.95rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    transition: transform 0.22s ease, background-color 0.22s ease, border-color 0.22s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.75);
+    transform: translateY(-2px);
+}
+
+.hamburger {
+    display: none;
+}
+
+main {
+    position: relative;
+    width: min(1120px, calc(100% - 2.4rem));
+    margin: 6.9rem auto 2rem;
+    padding-bottom: 1rem;
+}
+
+.back-button {
+    position: sticky;
+    top: 6.2rem;
+    z-index: 6;
+    display: inline-flex;
+    align-items: center;
+    margin: 0 0 1rem 0;
+    padding: 0.6rem 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 999px;
+    background: linear-gradient(135deg, var(--accent-gold) 0%, var(--accent-gold-2) 100%);
+    box-shadow: 0 8px 20px rgba(242, 163, 22, 0.34);
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.back-button:hover {
+    transform: translateX(4px);
+    box-shadow: 0 12px 24px rgba(242, 163, 22, 0.45);
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+    border-radius: 22px;
+    margin-bottom: 1.6rem;
+    padding: 4.2rem 1.2rem 3.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Henny Penny', cursive;
+    font-size: clamp(2rem, 4.8vw, 3.5rem);
+    letter-spacing: 1.2px;
+    background:
+        linear-gradient(130deg, rgba(11, 34, 54, 0.95) 0%, rgba(28, 79, 51, 0.9) 55%, rgba(35, 76, 106, 0.88) 100%),
+        url('assets/backgrounds/gladiatorium.png') center/cover no-repeat;
+    box-shadow: var(--shadow-soft);
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    right: -55px;
+    top: -55px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 181, 72, 0.32) 0%, rgba(255, 181, 72, 0) 72%);
+}
+
+article {
+    position: relative;
+    margin: 0 0 1.3rem;
+    padding: 1.7rem 1.6rem;
+    border-radius: 14px;
+    background: linear-gradient(165deg, var(--bg-panel) 0%, #fff 70%);
+    border: 1px solid rgba(242, 163, 22, 0.3);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+article::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 180px;
+    height: 180px;
+    border-radius: 0 0 0 100%;
+    background: radial-gradient(circle at top right, rgba(35, 76, 106, 0.1), transparent 75%);
+    pointer-events: none;
+}
+
+article h2 {
+    display: inline-block;
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.35rem;
+    font-family: 'Henny Penny', cursive;
+    font-size: clamp(1.3rem, 2.6vw, 1.9rem);
+    color: var(--accent-blue);
+    border-bottom: 3px solid var(--accent-gold);
+}
+
+article p {
+    margin-bottom: 0.8rem;
+    line-height: 1.75;
+    color: var(--text-main);
+    font-size: 0.98rem;
+}
+
+article p:last-child {
+    margin-bottom: 0;
+}
+
+.section-link {
+    color: var(--accent-blue);
+    font-weight: 700;
+    text-decoration-color: rgba(35, 76, 106, 0.34);
+    text-underline-offset: 3px;
+}
+
+.section-link:hover {
+    color: #0d334d;
+    text-decoration-color: #0d334d;
+}
+
+footer {
+    margin-top: 2.2rem;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    gap: 1.6rem;
+    align-items: stretch;
+    padding: 1.6rem;
+    color: #f6efe2;
+    background:
+        linear-gradient(145deg, #1d3f59 0%, #102c41 50%, #062437 100%);
+}
+
+.tarrot-wrapper {
+    display: grid;
+    place-items: center;
+}
+
+.tarrot-wrapper figure {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.tarrot-wrapper img {
+    width: clamp(64px, 8vw, 94px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.content-top-section h2,
+.footer-right h2 {
+    font-family: 'Henny Penny', cursive;
+    color: var(--accent-gold-2);
+    font-size: clamp(1.4rem, 3vw, 1.9rem);
+    letter-spacing: 0.5px;
+}
+
+.content-top-section p,
+.footer-right p {
+    font-size: 0.94rem;
+    line-height: 1.7;
+    color: #f2eadf;
+}
+
+.content-bottom-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.wattpad-button a {
+    text-decoration: none;
+}
+
+.wattpad-button button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    color: #fff;
+    padding: 0.65rem 1.1rem;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    background: linear-gradient(135deg, #ee8d13 0%, #f7b13f 100%);
+    box-shadow: 0 6px 16px rgba(248, 173, 54, 0.35);
+    transition: transform 0.22s ease;
+}
+
+.wattpad-button button:hover {
+    transform: translateY(-2px);
+}
+
+.wattpad-button img {
+    width: 18px;
+    height: 18px;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+}
+
+.social-list a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.09);
+    transition: background-color 0.22s ease, transform 0.22s ease;
+}
+
+.social-list a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.social-list img {
+    width: 18px;
+    height: 18px;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.4rem;
+    font-size: 0.86rem;
+    color: #ececec;
+    background: #0a1d2b;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-bottom a {
+    color: #f7c56d;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 980px) {
+    header {
+        padding: 0.85rem 1rem;
+        align-items: flex-start;
+    }
+
+    .logo span {
+        font-size: 1.95rem;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .nav-list {
+        justify-content: flex-end;
+        gap: 0.45rem;
+    }
+
+    .nav-link {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.75rem;
+    }
+
+    main {
+        width: min(980px, calc(100% - 1.3rem));
+        margin-top: 6.3rem;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+    }
+
+    .tarrot-wrapper {
+        justify-content: start;
+    }
+
+    .footer-bottom {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        position: sticky;
+        top: 0;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    .nav-list {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-link {
+        font-size: 0.75rem;
+        padding: 0.4rem 0.6rem;
+    }
+
+    main {
+        width: calc(100% - 0.9rem);
+        margin-top: 0.8rem;
+    }
+
+    .back-button {
+        top: 0.55rem;
+        margin-bottom: 0.65rem;
+        font-size: 0.78rem;
+        padding: 0.5rem 0.88rem;
+    }
+
+    .banner {
+        border-radius: 14px;
+        margin-bottom: 1rem;
+        padding: 2.6rem 0.8rem 2.2rem;
+    }
+
+    article {
+        padding: 1.2rem 0.9rem;
+        margin-bottom: 0.85rem;
+    }
+
+    article p {
+        font-size: 0.92rem;
+        line-height: 1.6;
+    }
+
+    .footer-top,
+    .footer-bottom {
+        padding-left: 0.85rem;
+        padding-right: 0.85rem;
+    }
+}

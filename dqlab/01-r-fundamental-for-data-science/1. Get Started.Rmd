@@ -1,0 +1,54 @@
+```{r}
+# Mencoba untuk Print
+"Hello World"
+1 + 5
+```
+
+```{r}
+# Sama, masih coba untuk pemula
+9
+"Budi"
+9 * 3
+```
+
+```{r}
+# pemula banget cuyy
+# Belajar fungsi print
+print('Hello World')
+print(3 + 4)
+```
+
+```{r}
+#Case sensitive R
+01
+1
+"01-01-1980"
+"1-1-1980"
+"Budi"
+"BUDI"
+```
+
+```{r}
+# Fungsi C untuk ngurutin
+c(5:10)
+```
+
+```{r}
+# Belajar variabel dan Assignment Operator
+# -> ini adalah assignment operator
+budi_berat_kg <- 68
+
+santi_berat_kg <- 54.5
+
+budi_berat_kg
+
+santi_berat_kg
+
+pi <- 3.14
+
+pi
+```
+
+```{r}
+# visual
+```

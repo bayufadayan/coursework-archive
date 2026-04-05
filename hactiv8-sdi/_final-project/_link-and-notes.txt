@@ -1,0 +1,14 @@
+
+API DOCS URL:
+https://documenter.getpostman.com/view/41960388/2sB3QJNAtf
+
+Video Demo:
+https://youtu.be/rMkHYG1eO9M
+
+ENV Front End (Tidak ada Data yang terlalu Rahasia sih)
+
+API_BASE=https://nutri-trace-backend.bayufadayan.my.id
+NEXT_PUBLIC_API_BASE=https://nutri-trace-backend.bayufadayan.my.id
+ACCESS_TOKEN_MAXAGE=86400
+REFRESH_TOKEN_MAXAGE=2592000
+APPLICATION_MODE="DEMO"
